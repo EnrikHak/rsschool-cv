@@ -1,1 +1,219 @@
-Second file
+/* Body */
+body {
+    margin: 0;
+    padding-top: 65px;
+    background: black;
+}
+
+
+
+
+/* Container */
+.container {    
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Main */
+.main {
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+    background: rgb(150, 149, 149);
+}
+
+.main__inner {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main__title {
+    font-size: 48px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.main__under-title {
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 5px;
+    padding-left: 265px;
+}
+
+.main__text {    
+    font: bold 28px Calibri, sans-serif;  
+}
+
+.main__about {
+    font-family: Calibri;
+    font-size: 22px;    
+}
+
+.main__strengths {
+    font-family: Calibri;
+    font-size: 22px;
+}
+
+.main__lang {
+    font-family: Calibri;
+    font-size: 22px;
+}
+
+.main_code {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(161, 235, 238);
+    border-radius: 40px;  
+}
+
+.main__education {
+    font-family: Calibri;
+    font-size: 22px;   
+}
+
+.main__projects {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.main_skills {
+    text-align: center;   
+}
+
+.main_contacts {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+
+
+
+/* Img */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+}
+
+
+
+
+/* Nav*/
+.nav {
+    font-size: 20px;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: rgb(251, 255, 0);
+}
+
+
+
+
+/* Text_img */
+.text_img {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding-right: 90px;
+}
+
+
+
+
+/* Footer */
+.footer__footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: gold;
+    text-align: right;
+}
+
+.footer {
+    width: 100%;
+    
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container__footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+}
+
+.footer__rss {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: yellow;
+}
+
+
+.footer__GH {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.phonemail {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+
+.degree {
+    font-family: Calibri;
+    font-size: 22px;
+}
